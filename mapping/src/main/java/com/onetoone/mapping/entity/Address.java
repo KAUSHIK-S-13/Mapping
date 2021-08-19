@@ -17,5 +17,5 @@ public class Address {
     @Column(name="add_id")
     private Long addressId;
     private String city;
-    private Integer addressType;
+    private Long pincode;
 }

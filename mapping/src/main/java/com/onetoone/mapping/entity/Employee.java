@@ -13,7 +13,7 @@ import javax.transaction.Transactional;
 @Table(name="employee_details")
 public class Employee {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name="emp_id")
     private Long empId;
     private String empName;
